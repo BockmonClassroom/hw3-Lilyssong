@@ -1,0 +1,38 @@
+### Initial Data Summary ###
+                uid  variant_number   active_mins
+count  46633.000000    46633.000000  4.663300e+04
+mean   24922.194433        0.197457  8.270908e+02
+std    14416.635209        0.398084  1.420208e+04
+min        0.000000        0.000000  1.000000e+00
+25%    12446.000000        0.000000  1.800000e+01
+50%    24898.000000        0.000000  5.500000e+01
+75%    37374.000000        0.000000  1.990000e+02
+max    49999.000000        1.000000  1.121783e+06
+
+### T-Test Results ###
+Control Group - Mean: 837.6428857715431, Median: 52.0
+Treatment Group - Mean: 784.2028670721112, Median: 71.0
+T-statistic: 0.4056089463388251, P-value: 0.6850342487187623
+
+### Data After Outlier Removal ###
+                uid  variant_number   active_mins
+count  39817.000000    39817.000000  39817.000000
+mean   24900.457091        0.196474     80.523319
+std    14398.607871        0.397336     98.131284
+min        0.000000        0.000000      1.000000
+25%    12445.000000        0.000000     14.000000
+50%    24904.000000        0.000000     41.000000
+75%    37323.000000        0.000000    106.000000
+max    49999.000000        1.000000    470.000000
+
+### Pre vs. Post Experiment Analysis ###
+Paired T-Test - T-statistic: 25.538157058925012, P-value: 1.0631153887791482e-142
+
+### User Attribute Analysis ###
+user_type
+contributor   -529.069388
+new_user        18.247191
+non_reader     -14.136001
+reader        -209.240839
+Name: change, dtype: float64
+
